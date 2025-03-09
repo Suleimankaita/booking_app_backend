@@ -1,0 +1,27 @@
+{
+  "name": "bakend1",
+  "version": "1.0.0",
+  "description": "project1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server ",
+    "dev": "nodemon server ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "man~🤨",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^7.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.4",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
